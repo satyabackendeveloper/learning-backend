@@ -9,7 +9,7 @@ I will be using `yarn` to work. If you do not have `yarn` you can use `npm` or i
 
 3. Copy .env.example to .env
 
-4. Copy ormconfig.json.example to ormconfig.json
+4. Copy ormconfig.json.example to ormconfig.json and update  you database details
 
 5. Run `npx typorm migration:run` to migrate schema to database
 
