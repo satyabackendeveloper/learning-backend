@@ -12,6 +12,6 @@ async function bootstrap() {
   // Add headers to prevent from vulnerabilities
   app.use(helmet());
   // Server listening
-  await app.listen(process.env.PORT);
+  await app.listen(process.env.PORT || 3001);
 }
 bootstrap();
