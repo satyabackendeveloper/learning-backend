@@ -7,8 +7,12 @@ I will be using `yarn` to work. If you do not have `yarn` you can use `npm` or i
 
 2. Run `yarn install` to get all the node modules required for the project
 
-3. Run `npx typorm migration:run` to migrate schema to database
+3. Copy .env.example to .env
 
-4. Run `yarn seed:run` to run seeds
+4. Copy ormconfig.json.example to ormconfig.json
 
-5. Run `yarn start` to start the server on PORT 3001.
+5. Run `npx typorm migration:run` to migrate schema to database
+
+6. Run `yarn seed:run` to run seeds
+
+7. Run `yarn start` to start the server on PORT 3001.
